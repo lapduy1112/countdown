@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display:flex;
+    height: 100vh;
+    justify-content:center;
+    align-items:center;
+    align-content: center;
+    overflow: hidden;
+    background:url(https://c.tadst.com/gfx/750w/newyearindia2010.jpg) no-repeat center/cover;
+    background-position: center center;
+    flex-direction: column;
+    color: #fff;
+}
+.countdown{
+    display: flex;
+}
+.title{
+    font-size:60px;
+    font-weight:bold;
+    
+}
+.countdown{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.countdown>.time{
+    text-align: center;
+}
+.time{
+    padding: 30px;
+    font-size: 60px;
+    font-weight: 600 px;
+    text-shadow: 2px 2px rgba(0,0,0,0.9);
+}
+.year{
+    font-size: 120px;
+    font-weight: 600 px;
+    text-shadow: 2px 2px rgba(0,0,0,0.9);
+}
+
